@@ -17,8 +17,11 @@ jobs:
         with:
           dotnet-version: '6.0.x'
 
-      - name: Restore dependencies 
+      - name: Restore  dependencies 
         run: dotnet restore
 
       - name: Build Application
         run: dotnet build -c Release --no-restore
+
+      - name: Run Automated Test
+        run: dotnet test -c Release --no-build
