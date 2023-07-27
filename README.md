@@ -1,1 +1,1 @@
-# CI_CD_DotNetCore6
+[![continuous integration and deployment](https://github.com/Tareq612625/CI_CD_DotNetCore6/actions/workflows/CI-CD.yaml/badge.svg)](https://github.com/Tareq612625/CI_CD_DotNetCore6/actions/workflows/CI-CD.yaml)
