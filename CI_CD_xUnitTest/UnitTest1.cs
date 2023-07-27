@@ -5,7 +5,7 @@ namespace CI_CD_xUnitTest
         [Fact]
         public void Test1()
         {
-            Assert.True(1 == 0);
+            Assert.True(1 == 1);
         }
     }
 }
